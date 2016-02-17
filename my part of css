@@ -1,0 +1,29 @@
+{
+	color: #333;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+}
+.item-description{
+	color: #737373;
+	font-family: DroidSerif;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.clearfix {
+	content: " ";
+	clear: both; 
+	overflow: hidden;
+	}
+
+ button {
+ 	width: 240px;
+	height: 65px;
+	background-color: #fed136 ;
+	border-radius: 2px; color: white;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	}
