@@ -1,0 +1,197 @@
+.team_image {
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.item {
+    float: left;
+    text-align: center;
+}
+
+.container {
+    width: 1005px;
+    margin: 0 auto;
+}
+
+
+.inputs {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.inputs input {
+    margin-bottom: 27px;
+    height: 52px;
+    padding: 0;
+}
+
+.textarea-wrapp {
+    display: inline-block;
+    width: 49%;
+    min-height: 211px;
+    margin-left: 2%;
+}
+
+input, textarea {
+    width: 100%;
+    text-indent: 21px;
+    color: #bbb;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+textarea {
+    padding-top: 10px;
+}
+
+.item_wrap {
+    display: inline-block;
+    padding-top: 76px;
+}
+
+.wrap_our_amaz_team {
+    text-align: center;
+}
+
+.logo_wrap_img {
+    display: inline-block;
+}
+
+.social_wrapp a {
+    display: inline-block;
+}
+
+.footer-soc-link {
+    display: inline-block;
+}
+
+.footer-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 120px 0 230px;
+}
+
+.footer-soc {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contacts-wrapp {
+    background: url("image/bg-form.png");
+}
+
+.contacts-wrapp .section-title {
+    color: white;
+}
+
+.contacts-wrapp .section-title {
+    color: white;
+}
+
+.item_h2 {
+    color: #222;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item__arketer {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.proin {
+    color: #777;
+    font-size: 16px;
+    padding: 51px 0 177px 0;
+}
+
+.footer-text__copy {
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.footer-soc-twitter {
+    background-image: url(image/tw_black.png);
+}
+
+.footer-soc-fb {
+    background-image: url(image/fb_black.png);
+}
+
+.footer-soc-p {
+    background-image: url(image/p_black.png);
+}
+
+.footer-soc-g {
+    background-image: url(image/g+_black.png);
+}
+
+.footer-soc__link {
+    display: inline-block;
+    width: 42px;
+    height: 41px;
+}
+
+.social__link {
+    background-image: url(image/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social__link_fb {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -5px;
+}
+
+.social__link_g {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -5px;
+}
+
+.social__link_p {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -56px;
+}
+
+.social__link_twitteer {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -56px;
+}
+
+.amazing {
+    padding: 70px 0 61px 0;
+}
+
+.contacts-wrapp {
+    padding: 110px 0 115px 0;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+textarea {
+    max-height: 224px;
+    min-height: 224px;
+}
+
+.circle {
+    width: 234px;
+    height: 234px;
+    background: #000;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.form-wrapp {
+    padding-top: 75px;
+}
