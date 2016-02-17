@@ -79,7 +79,7 @@ textarea {
 }
 
 .contacts-wrapp {
-    background: url("image/bg-form.png");
+    background: url("img/bg-form.png");
 }
 
 .contacts-wrapp .section-title {
@@ -116,19 +116,19 @@ textarea {
 }
 
 .footer-soc-twitter {
-    background-image: url(image/tw_black.png);
+    background-image: url(img/tw_black.png);
 }
 
 .footer-soc-fb {
-    background-image: url(image/fb_black.png);
+    background-image: url(img/fb_black.png);
 }
 
 .footer-soc-p {
-    background-image: url(image/p_black.png);
+    background-image: url(img/p_black.png);
 }
 
 .footer-soc-g {
-    background-image: url(image/g+_black.png);
+    background-image: url(img/g+_black.png);
 }
 
 .footer-soc__link {
@@ -138,7 +138,7 @@ textarea {
 }
 
 .social__link {
-    background-image: url(image/spritesheet.png);
+    background-image: url(img/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
 }
@@ -168,7 +168,7 @@ textarea {
 }
 
 .amazing {
-    padding: 70px 0 61px 0;
+    padding: 0 0 61px 0;
 }
 
 .contacts-wrapp {
