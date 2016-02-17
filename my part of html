@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="container">
+	<p class="section-title">Our portfolio</p>
+	<p class="section-description">Proin iaculis purus consequat sem cure. </p>
+	<div class="item-box">
+	<div class="item">
+		<img src="image.jpg" alt="">
+		<p class="item-title">Ebony & Ivory</p>
+		<p class="item-description">Branding</p>
+	</div>	
+	<div class="item">
+		<img src="image1.jpg" alt="">
+		<p class="item-title">Smart Stationary</p>
+		<p class="item-description">Print Design</p>
+	</div>	
+	<div class="item">
+		<img src="image2.jpg" alt="">
+		<p class="item-title">Clever Poster</p>
+		<p class="item-description">Print Design</p>
+	</div>	
+	<div class="item">
+		<img src="image3.jpg" alt="">
+		<p class="item-title">Vinyl Record</p>
+		<p class="item-description">Product Mock-Up</p>
+	</div>	
+	<div class="item">
+		<img src="image4.jpg" alt="">
+		<p class="item-title">Treehouse Template</p>
+		<p class="item-description">Web Design</p>
+	</div>	
+	<div class="item">
+		<img src="image5.jpg" alt="">
+		<p class="item-title">Burned Logo</p>
+		<p class="item-description">Branding</p>
+	</div>	
+	</div>
+	</section>
+</body>
+</html>
