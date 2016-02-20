@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<section class="container">
+	<p class="section-title">Our portfolio</p>
+	<p class="section-description">Proin iaculis purus consequat sem cure. </p>
+	<div class="item-box">
+	<div class="item">
+		<img src="image.jpg" alt="">
+
+		<p class="item-title">Ebony & Ivory</p>
+		<p class="item-description">Branding</p>
+	</div>	
+	<div class="item">
+		<img src="image1.jpg" alt="">
+
+		<p class="item-title">Smart Stationary</p>
+		<p class="item-description">Print Design</p>
+	</div>	
+	<div class="item">
+		<img src="image2.jpg" alt="">
+
+		<p class="item-title">Clever Poster</p>
+		<p class="item-description">Print Design</p>
+	</div>	
+	<div class="item">
+		<img src="image3.jpg" alt="">
+
+		<p class="item-title">Vinyl Record</p>
+		<p class="item-description">Product Mock-Up</p>
+	</div>	
+	<div class="item">
+		<img src="image4.jpg" alt="">
+
+		<p class="item-title">Treehouse Template</p>
+		<p class="item-description">Web Design</p>
+	</div>	
+	<div class="item">
+		<img src="image5.jpg" alt="">
+
+		<p class="item-title">Burned Logo</p>
+		<p class="item-description">Branding</p>
+	</div>	
+	</div>
+	</section>
+	<section class="container">
+		<p class="section-title">About Us</p>
+		<p class="section-description">Proin iaculis purus consequat sem cure. </p>
+		<div class="item-box">
+		<figure class="box-left">
+				<img class="box-left-pic" src="image.png" alt=""/>
+					<p class="caption">July 2010
+					</p>
+					<p class="subtitle">	Our Humble Beginnings
+					</p>
+					<p class="text"> Proin iaculis purus consequat sem cure 
+					digni ssim. Donec porttitora entum suscipit 
+					aenean rhoncus posuere odio in tincidunt. Proin 
+					iaculis purus consequat sem cure digni 
+					ssim. Donec porttitora entum suscipit.
+					</p>
+		</figure>
+				<img class="line" src="vertical-line-4.png" alt="">
+		
+		<figure class="box-right">
+			<img class="box-right-pic" src="image8.png" alt=""/>
+				<p class="caption">January 2011
+				</p>
+				<p class="subtitle">Facing Startup Battles
+				</p>
+				<p class="text"> Proin iaculis purus consequat sem cure 
+				digni ssim. Donec porttitora entum suscipit 
+				aenean rhoncus posuere odio in tincidunt. Proin 
+				iaculis purus consequat sem cure digni 
+				ssim. Donec porttitora entum suscipit.
+				</p>
+		</figure>
+				<img class="line" src="vertical-line-4.png" alt="">
+		<div class="box-left">
+			<img class="box-left-pic" src="image9.png" alt=""/>
+				<p class="caption">December 2012
+				</p>
+				<p class="subtitle">Enter The Dark Days
+				</p>
+				<p class="text"> Proin iaculis purus consequat sem cure 
+				digni ssim. Donec porttitora entum suscipit 
+				aenean rhoncus posuere odio in tincidunt. Proin 
+				iaculis purus consequat sem cure digni 
+				ssim. Donec porttitora entum suscipit.
+				</p>
+		</div>
+				<img class="line" src="vertical-line-4.png" alt="">
+		<figure class="box-right">
+			<img class="box-right-pic" src="image10.png" alt=""/>
+				<p class="caption">february 2014
+				</p>
+				<p class="subtitle">Our Triumph
+				</p>
+				<p class="text"> Proin iaculis purus consequat sem cure 
+				digni ssim. Donec porttitora entum suscipit 
+				aenean rhoncus posuere odio in tincidunt. Proin 
+				iaculis purus consequat sem cure digni 
+				ssim. Donec porttitora entum suscipit.
+				</p>
+		</figure>
+			<img class="line" src="vertical-line-4.png" alt="">
+		<figure class="box-left-yellow">
+			
+			<p class="text-yellow-but">Our <br>
+										Story<br>
+										Continues<br>
+										...
+									</p>
+		</figure>		
+		</div>
+	</section>
+</body>
+</html>
