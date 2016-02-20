@@ -1,10 +1,11 @@
-.section {
+.home {
 	background-color: black;
 	background-image: url("../img/fon.png");
+	background-size: cover;
 }
 
 .container { 
-	width: 975px;
+	max-width: 975px;
 	margin: 0 auto;
 }
 
@@ -32,44 +33,47 @@
 	color:yellow;
 }
 
+.content {
+	padding-bottom: 160px;
+}
+
 .welcome {
 	color: white;
-	font-family: DroidSerif;
 	font-size: 40px;
 	font-style: italic;
-	margin-left: 280px;
-	margin-top: 195px;
+	padding-top: 195px;
+	text-align: center;
 }
 
 .title {
 	color: white;
-	font-family: Montserrat;
 	font-size: 75px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
 .view {
+	display: block;
 	width: 240px;
 	height: 65px;
 	background-color: #fed136;
 	border-radius: 2px; 
+	border: none;
 	color: white;
 	font-family: Montserrat;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-top: 50px;
-	margin-left: 380px;
-	margin-bottom: 150px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .view:hover {
-	color: black;
-	background-color: red;
+	background: #00BCD4;
+	color: #fed136;	
 }
 
 .section-title {
@@ -80,7 +84,7 @@
 	line-height: 75px;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 120px;
 }
 
 .section-description {
@@ -91,14 +95,18 @@
 	text-align: center;
 }
 
+.row {
+	width: 100%;
+	padding-top: 77px;
+	padding-bottom: 120px;
+	font-size: 0;
+}
+
 .services {
 	display: inline-block;
-	width: 274px;
-	height: 187px;
-	margin-top: 80px;
-	margin-left: 27px;
+	width: 31%;
+	margin: 10px;
 	text-align: center;
-	padding-bottom: 120px;
 }
 
 .text {
@@ -114,7 +122,7 @@
 	font-family: RobotoSlab;
 	font-size: 14px;
 	font-weight: 400;
-	margin-bottom: 120px;
+	
 }
 
 .portfolio {
@@ -127,21 +135,22 @@
 	margin bottom: 120px;
 }
 .item {
-	background-image: url('../img/background2.jpg');
+	background-image: url("../img/background2.jpg");
 	width: 290px;
-	height: 393px;
 	background-color: white;
 	text-align: center;
-	float: left;
-	margin-right: 35px;
+	display: inline-block;
+	margin-right: 20px;
 	margin-bottom: 50px;
 }
+
 .item-title{
 	color: #333;
 	font-family: 'Montserrat';
 	font-size: 18px;
 	font-weight: 700;
 }
+
 .item-description{
 	color: #737373;
 	font-family: DroidSerif;
@@ -149,21 +158,83 @@
 	font-style: italic;
 }
 
-.team_image {
-    border-radius: 50%;
-    border: 7px solid white;
+section:after{
+	content: " ";
+	clear: both; 
+	overflow: hidden;
+}
+	
+.box-left {
+	width: 54%;
+	text-align: right;
+	margin: 0px 0px 12px 62px;
 }
 
-.item {
-    float: left;
-    text-align: center;
+.box-left-pic {
+	height: auto;
+	float: right;
+	padding-left: 39px;
 }
 
-.container {
-    width: 1005px;
-    margin: 0 auto;
+.caption {
+	color: #222;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
+.subtitle {
+	color: #222;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.textbox {
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.box-right {
+	width: 50%;
+	text-align: left;
+	margin: 0px 0px 12px 404px;
+}
+
+.box-right-pic {
+	height: auto;
+	float: left;
+	padding-right: 39px;
+}
+
+.line {
+	width: 2px;
+	height: 93px;
+	background-color: #f1f1f1;
+	margin: 0 0 0 51%;
+}
+
+.box-left-yellow{
+	background-image: url("../img/container11.png");
+	width: 182px;
+	height: 182px;
+	margin: 0px 0px 12px 42%;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-yellow-but {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 25%;
+}
 
 .inputs {
     display: inline-block;
@@ -195,6 +266,10 @@ input, textarea {
 
 textarea {
     padding-top: 10px;
+    text-indent: 0 !important;
+    max-height: 244px;
+    height: 210px;
+    padding: 20px;
 }
 
 .item_wrap {
@@ -218,19 +293,28 @@ textarea {
     display: inline-block;
 }
 
-.footer-text {
+.footer-text-align {
     display: inline-block;
+    text-align: center;
+    width: 50%;
     vertical-align: middle;
-    margin: 0 120px 0 230px;
 }
 
 .footer-soc {
     display: inline-block;
+    width: 50%;
     vertical-align: middle;
 }
 
+.wrap-coc__a {
+    margin-left: -17%;
+}
+
 .contacts-wrapp {
-    background: url("../img/bg-form.png");
+    background: url("../img/bg-form.png") no-repeat;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
 .contacts-wrapp .section-title {
@@ -239,24 +323,31 @@ textarea {
 
 .contacts-wrapp .section-title {
     color: white;
+}
+
+.item_sub {
+    float: left;
+    text-align: center;
 }
 
 .item_h2 {
     color: #222;
     font-size: 16px;
     font-weight: 700;
+    line-height: 50px;
 }
 
 .item__arketer {
     color: #777;
     font-size: 14px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 
 .proin {
     color: #777;
     font-size: 16px;
-    padding: 51px 0 177px 0;
+    padding: 51px 0 109px 0;
 }
 
 .footer-text__copy {
@@ -264,6 +355,10 @@ textarea {
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
+}
+
+.wrap-coc-a {
+    margin-left: -17%;
 }
 
 .footer-soc-twitter {
@@ -328,12 +423,11 @@ textarea {
 
 footer {
     padding: 20px 0;
+    width: 975px;
+    margin: 0 auto;
+    font-size: 0;
 }
 
-textarea {
-    max-height: 244px;
-    min-height: 244px;
-}
 
 .circle {
     width: 234px;
@@ -362,4 +456,15 @@ button, .button {
     border: none;
     display: block;
     margin: 0 auto;
+}
+
+.button:hover {
+	background: #00BCD4;
+	color: #fed136;	
+}
+
+.clearfix {
+	content: " ";
+	clear: both; 
+	overflow: hidden;
 }
